@@ -1,3 +1,4 @@
+//Yaciura Mariano Ejercicio 10
 /*
 Al presionar el botón pedir  números  
 hasta que el usuario quiera, mostrar:
@@ -13,11 +14,24 @@ hasta que el usuario quiera, mostrar:
 function mostrar()
 {
 	//declarar contadores y variables 
-	var respuesta;
-	var numeroIngresado;
-	var sumaNegativos=0;
-
-	respuesta="si";
+	let resp= "s";
+	let numero;
+	let sumaNegativos=0;
+	let sumaPositivos=0;
+	let contadorPositivos;
+	let contadorNegativos;
+	let contadorCeros;
+	let contadorNumerosPares;
+	let promedioPositivos;
+	let promedioNegativos;
+	let diferencia;
+	
+	do{
+		numero=parseInt(prompt("Ingrese un numero"));
+	}
+	
+	
+	resp="si";
 
 	while(respuesta=="si")
 	{

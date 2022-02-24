@@ -1,13 +1,20 @@
+//Yaciura Mariano Ejercicio 6
+//Al presionar el botón pedir 5 números e informar la suma acumulada y el promedio.
 function mostrar()
 {
-	var contador;
-	var acumulador;
-	var numeroIngresado;
+	let numero;
+	let acum=0;
+	let promedio;
+	let i=0;
 
-	contador=0;
-	acumulador=0;
-	
-	
-	txtIdSuma.value=acumulador;
-	txtIdPromedio.value=acumulador/5;
+	while(i<5){
+		numero= parseInt(prompt("Ingrese un numero"));
+		acum= acum + numero;
+		i++;
+	}
+	promedio= acum/i++;
+
+	document.getElementById("txtIdSuma").value= acum;
+	document.getElementById("txtIdPromedio").value= promedio;
+
 }//FIN DE LA FUNCIÓN

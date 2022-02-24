@@ -4,7 +4,12 @@ B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en
 */
 function FahrenheitCentigrados () 
 {
-	
+	let fahrenheit;
+    let formula;
+    let mensaje;
+
+    fahrenheit=
+    formula=
 }
 
 function CentigradosFahrenheit () 
